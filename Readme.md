@@ -4,7 +4,7 @@
 
 This is an inclass practice project for Git and Github.
 
-Steps:
+Steps:  
 Command line:
 
 ```
@@ -14,7 +14,7 @@ Command line:
     mine .
 ```
 
-RubyMine
+RubyMine  
 Create Gemfile with:
 
 ```ruby
@@ -26,12 +26,12 @@ gem 'guard-rubocop'
 Command line:
 
 ```
-    bundle
-    guard init
+    bundle install
+    guard init rubocop
     guard
 ```
 
-RubyMine
+RubyMine  
 Create .rubocop.yml with:
 
 ```ruby
@@ -51,3 +51,16 @@ Command line:
     git commit -m 'Initial Commit'
     git log
 ```
+
+Browser:  
+Create a new repository at https://github.com/new
+Copy the "existing repository" link with SSH clicked
+
+Command line:  
+Paste into command line and press return  
+For future pushes:  
+
+```
+    git push
+```
+
